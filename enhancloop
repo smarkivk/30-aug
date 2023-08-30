@@ -1,0 +1,13 @@
+public class EnhancedLoopExample {
+
+    public static void main(String[] args) {
+        // Declare an array of strings
+        String[] fruits = {"Apple", "Banana", "Orange", "Grapes", "Mango"};
+
+        // Use an enhanced for loop to iterate through the array
+        System.out.println("Fruits in the array:");
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
+}
